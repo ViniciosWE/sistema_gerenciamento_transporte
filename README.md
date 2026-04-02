@@ -15,7 +15,8 @@ O sistema permite:
 ---
 
 ## ⚙️ Tecnologias Utilizadas
-
+- Android Studio
+- Java
 - PHP - para usar banco externo
 - MySQL 
 - XML
