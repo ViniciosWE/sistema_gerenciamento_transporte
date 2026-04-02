@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#248FD8"
+    android:padding="20dp"
+    tools:context=".TelaPedidos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/borda_layout"
+            android:padding="20dp"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Código de Rastreio"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"/>
+
+            <Spinner
+                android:id="@+id/spsCodAcompanha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btBuscaAcompanha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#298C1E"
+            android:textStyle="bold"
+            android:padding="12dp"
+            android:layout_marginTop="10dp"/>
+
+        <ListView
+            android:id="@+id/listaPedidosAcompanha"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="@drawable/borda_layout"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btVoltarAcompanha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Retornar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#298C1E"
+            android:textStyle="bold"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

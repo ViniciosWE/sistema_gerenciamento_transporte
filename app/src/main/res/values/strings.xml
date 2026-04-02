@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">AtividadeFinal</string>
+
+    <array name="transportadora">
+        <item>Rápido Entregas Brasil</item>
+        <item>Logística Soluções</item>
+        <item>Frete Expresso</item>
+        <item>Transportes Ágeis</item>
+        <item>Rota Segura</item>
+    </array>
+
+    <array name="servico_entrega">
+        <item>Entrega Expressa</item>
+        <item>Entrega Agendada</item>
+        <item>Entrega Padrão</item>
+        <item>Entrega Standard</item>
+        <item>Envio Econômico</item>
+    </array>
+
+    <array name="previsao">
+        <item>Entrega em até 5 dias úteis</item>
+        <item>Entrega no mesmo dia</item>
+        <item>Entrega em 24 horas</item>
+        <item>Entrega em 7 a 15 dias úteis</item>
+        <item>Entrega em até 30 dias (internacional/econômica)</item>
+    </array>
+
+    <array name="status_entrega">
+        <item>Em preparação</item>
+        <item>Em transportadora</item>
+        <item>Em trânsito</item>
+        <item>Entregue</item>
+    </array>
+
+
+</resources>
