@@ -81,3 +81,10 @@ FOR EACH ROW
 UPDATE produto
 SET estatus = NEW.status
 WHERE id = NEW.produto_id;
+```
+---
+
+## Autor
+
+* **Vinícios Weide Ebling** - [vinicioswe2005@gmail.com](mailto:vinicioswe2005@gmail.com)
+
