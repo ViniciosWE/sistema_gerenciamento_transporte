@@ -1,4 +1,4 @@
-# 🚚 Sistema de Gerenciamento de Transporte
+# 🚚 Sistema de Gerenciamento de Transporte Mobile
 
 Sistema desenvolvido para gerenciamento e rastreamento de produtos em transporte, permitindo o controle de usuários, produtos e eventos logísticos em tempo real.
 
@@ -16,7 +16,7 @@ O sistema permite:
 
 ## ⚙️ Tecnologias Utilizadas
 
-- PHP 
+- PHP - para usar banco externo
 - MySQL 
 - XML
 - XAMPP (ambiente local)
