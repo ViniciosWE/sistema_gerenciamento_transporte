@@ -23,6 +23,12 @@ O sistema permite:
 - XAMPP (ambiente local)
 
 ---
+## 📄 Licença
+
+Este projeto está licenciado sob os termos da licença MIT.  
+Consulte o arquivo [LICENSE](LICENSE.txt) para mais informações.
+
+---
 
 ## 🗄️ Estrutura do Banco de Dados
 
